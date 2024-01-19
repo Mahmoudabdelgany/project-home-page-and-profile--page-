@@ -1,0 +1,74 @@
+.login-page {
+    width: 100%;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form h2 {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.form input {
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 25px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.form #myButton {
+    background-color: #e1ecf4;
+    border-radius: 3px;
+    border: 1px solid #7aa7c7;
+    box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+    color: #39739d;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 12px .8em;
+    letter-spacing: 1px;
+}
+
+.form #myButton:hover {
+    background-color: #7aa7c7;
+}
+
+
+body {
+    background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);
+    background: linear-gradient(to right, #4ca2cd, #67B26F);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Align <hr> horizontally */
+.div-line {
+    display: flex;
+}
+
+.div-line hr {
+    width: 100%;
+    background-color: #333;
+    border: none;
+    height: 1px;
+}
+
+.div-line span {
+    margin: 0px 5px;
+}
