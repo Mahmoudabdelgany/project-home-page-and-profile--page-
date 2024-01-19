@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="styleSheet" href="resetPass.css">
+  <script src="resetPass.js" defer></script>
+</head>
+
+<body>
+  <div class="p-outer">
+    <div class="p">
+      <form action="">
+        <h2>Reset Password</h2>
+        <p>Enter your username first to reset your password</p>
+        <input type="text" id="UserName" name="UserName" placeholder="Username"><br><br>
+      </form>
+      <button class="open-button" onclick="openForm()">Check User</button>
+    </div>
+  </div>
+  <div class="form-popup" id="myForm">
+    <form class="form-container">
+
+      <h3>RESET PASSWORD</h3>
+      <label for="newPass">New Password</label>
+      <input type="Password" id="newPass" name="newPass">
+      <label for="confirmPass">Confirm Password:</label>
+      <input type="Password" id="confirmPass" name="confirmPass">
+      <button type="submit" class="btn" id="goToLogin">Login</button>
+
+    </form>
+  </div>
+</body>
+
+</html>

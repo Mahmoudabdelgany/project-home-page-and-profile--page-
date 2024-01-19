@@ -1,0 +1,60 @@
+<!Doctype html>
+<html>
+
+<head>
+	<title>Password Page</title>
+	<link rel="stylesheet" href="changePass.css">
+</head>
+
+<body>
+	<div class="d">
+		<form action="" class="pass">
+
+
+			<h2>Change PASSWORD</h2>
+			<h4><label for="username">Username</label><br>
+				<label for="name">Habiba Fouad</label>
+			</h4>
+			<label for="oldPass">Old Password</label><br>
+			<input type="password" id="oldPass" name="oldPass"><br><br>
+			<label for="newPass">New Password</label><br>
+			<input type="Password" id="newPass" name="newPass"><br><br>
+			<label for="confirmPass">Confirm Password:</label><br>
+			<input type="Password" id="confirmPass" name="confirmPass"><br><br>
+			<button type="button" id="butt" onclick="checkForm();">Change Password</button>
+
+		</form>
+	</div>
+	<script>
+
+		function checkForm() {
+			var Opassword = document.getElementById("oldPass").value;
+			var password = document.getElementById("newPass").value;
+			var Cpassword = document.getElementById("confirmPass").value;
+
+			if (Opassword != "" && password != "" && Cpassword != "") {
+				if (Opassword != password) {
+					if (password == Cpassword) {
+						alert("your password is changed successfully ")
+						return true;
+					}
+					else {
+						alert("Confirm password is not same as you new password.");
+						return false;
+					}
+				}
+				else {
+					alert(" This Is Your Old Password,Please Provide A New Password");
+					return false;
+				}
+			}
+			else {
+				alert("All Fields Are Required");
+				return false;
+			}
+		}
+		f
+	</script>
+</body>
+
+</html>
